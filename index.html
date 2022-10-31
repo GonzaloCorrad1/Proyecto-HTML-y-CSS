@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1 FrontEnd Gonzalo Corradi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="contenedor contenedor-header">
+            <nav class= "navegacion">
+                <a id="frontEnd" href="index.html">Front End</a>
+                <a href="#tecnologias">Teconologias</a>
+                <a href="#contacto">Contacto</a>
+                <a href="SobreMi.html">Sobre mi</a>
+            </nav>
+        </div>
+    </header>
+    <div class="fondo"></div>
+        <div class="tecnologias" id="tecnologias">
+            <p>Tecnologias </p>
+        </div>
+        <div class="contenedor contenedor-imagenes">
+            
+            <div class="logos">
+                <img class="lenguaje" src="img/html.svg" alt="Logo HTML5">
+                <p>HTML5</p>
+            </div>
+            
+            <div class="logos">
+                <img class="lenguaje" src="img/css.svg" alt="Logo CSS3">
+                <p>CSS3</p>
+            </div>
+            
+            <div class="logos">
+                <img class = "lenguaje" src="img/javascript.svg" alt="Logo JavaScript">
+                <p>JavaScript</p>
+            </div>
+        
+        </div>
+    </main>
+    <form class="contacto" id="contacto" action="enviar.php" method="post">
+        <section><legend class="titulo">Contacto</legend>
+            <div>
+                <label>Tu Nombre:</label>
+                <input type="text" value="">
+            </div>
+    
+            <div>
+                <label>Tu email:</label>
+                <input type="text" value="">
+            </div>
+    
+            <div>
+                <label>Asunto:</label>
+                <input type="text" value="">
+            </div>
+    
+            <div>
+                <label>Mensaje:</label>
+                <textarea rows="10"></textarea>
+            </div>
+    
+            <div>
+                <input type="submit" value="Enviar Mensaje.">
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <p class="copy">Copyright &copy;<a href="https://github.com/GonzaloCorrad1?tab=repositories"> Gonzalo Corradi</a> 2022 All Rights Reserved</p>
+            </div>
+        </footer>
+        
+    </form>
+</body>
+</html>
