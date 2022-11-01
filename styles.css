@@ -230,7 +230,7 @@ div .copy{
 
 .enlace{
     text-decoration: none;
-    color: var(--negro);
+    color: var(--blanco);
     display: flex;
     cursor: pointer;
     justify-content: center;
